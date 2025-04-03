@@ -1,0 +1,48 @@
+.cart-conteiner {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    gap: 53px;
+    background-color: black;
+    border-radius: 32px;
+
+    &-img {
+        width: 35%;
+        height: 465px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    
+
+    }
+    &-descriptions {
+        .category {
+            width: 73px;
+            background-color: #191919;
+            text-align: center;
+            border-radius: 6px;
+            margin-bottom: 18px;
+        }
+
+        .episode {
+            color: #118DA8;
+            font-size: 17px;
+            margin-bottom: 18px;
+        }
+
+        .title {
+            font-size: 64px;
+            margin-bottom: 28px;
+            font-weight: 400;
+        }
+
+        &-description {
+            color: #FFFFFFB2;
+            margin-bottom: 18px;
+        }
+    }
+}
