@@ -1,5 +1,5 @@
 import './Banner.scss'
-import banner from '../../images/Frame.png'
+import banner from '../../images/Frame11.png'
 import social from '../../images/social.png'
 
 

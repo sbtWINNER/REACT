@@ -1,0 +1,25 @@
+.commente{
+    width: 32%;
+    background-color: #000000;
+    padding: 54px 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 32px;
+    img{
+        width: 18px;
+        height: 17px;
+    }
+    h2{
+        font-size: 36px;
+        font-weight: 400;
+        color: #FFFFFF;
+        line-height: 43.2px;
+    }
+    b{
+        font-size: 24px;
+        font-weight: 400;
+        color: #FFFFFFB2;
+    }
+}
