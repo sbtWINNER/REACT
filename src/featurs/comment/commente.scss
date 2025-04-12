@@ -1,4 +1,12 @@
-.commente{
+.comments-container {
+    padding: 100px 50px 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.commente {
     width: 32%;
     background-color: #000000;
     padding: 54px 50px;
@@ -7,19 +15,62 @@
     flex-direction: column;
     gap: 20px;
     border-radius: 32px;
-    img{
+    transition: all 0.3s ease-in-out;
+    
+    img {
         width: 18px;
         height: 17px;
     }
-    h2{
+
+    h2 {
         font-size: 36px;
         font-weight: 400;
         color: #FFFFFF;
         line-height: 43.2px;
     }
-    b{
+
+    b {
         font-size: 24px;
         font-weight: 400;
         color: #FFFFFFB2;
+    }
+
+
+    input,
+    textarea {
+        background-color: #333333;
+        color: #FFFFFF;
+        border: 1px solid #666666;
+        border-radius: 8px;
+        padding: 12px;
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+  
+    button {
+        padding: 12px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-right: 12px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #45a049;
+        }
+
+        &:last-child {
+            background-color: #f44336;
+            margin-right: 0;
+        }
+
+        &:last-child:hover {
+            background-color: #e53935;
+        }
     }
 }

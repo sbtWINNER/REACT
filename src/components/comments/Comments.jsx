@@ -35,22 +35,18 @@ export default function Comments() {
             title: 'I’ve upped my game considerably since I started listening',
             name: 'Steven Blast'
         },
-    ]
+    ];
 
     return (
         <div className="comments-container">
-            {
-                comments && (
-                    comments.map((comment) => (
-                        <Commente
-                            star={comment.star}
-                            title={comment.title}
-                            name={comment.name}
-                        />
-                    ))
-                )
-            }
-
+            {comments.map((comment, index) => (
+                <Commente
+                    key={index}
+                    star={comment.star}
+                    title={comment.title}
+                    name={comment.name}
+                />
+            ))}
         </div>
-    )
+    );
 }
